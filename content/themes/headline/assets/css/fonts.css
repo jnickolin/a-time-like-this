@@ -70,24 +70,29 @@
 
 @font-face {
     font-family: CosiTimes;
-    src: local(""), url("../fonts/CosiTimes-Bold.woff"), url("../fonts/CosiTimes-Bold.woff2");
+    font-style: normal;
+    src: local(""), url("../fonts/CosiTimes-Bold.woff") format("woff"), url("../fonts/CosiTimes-Bold.woff2") format("woff");
 
 }
 
 @font-face {
     font-family: CosiTimes;
-    src: local(""), url("../fonts/CosiTimes-Light.woff"), url("../fonts/CosiTimes-Light.woff2");
+    font-style: normal;
+    src: local(""), url("../fonts/CosiTimes-Light.woff") format("woff"), url("../fonts/CosiTimes-Light.woff2") format("woff2");
 
 }
 
 @font-face {
     font-family: CosiTimes;
-    src: local(""), url("../fonts/CosiTimes-LightCondensed.woff"), url("../fonts/CosiTimes-LightCondensed.woff2");
+    font-style: normal;
+    src: local(""), url("../fonts/CosiTimes-LightCondensed.woff") format("woff"), url("../fonts/CosiTimes-LightCondensed.woff2") format("woff2");
 
 }
 
 @font-face {
     font-family: CosiTimes;
-    src: local(""), url("../fonts/CosiTimes-Roman.woff"), url("../fonts/CosiTimes-Roman.woff2");
+    font-style: normal;
+    src: local(""), url("../fonts/CosiTimes-Roman.woff") format("woff"), url("../fonts/CosiTimes-Roman.woff2") format("woff2");
 
 }
+
