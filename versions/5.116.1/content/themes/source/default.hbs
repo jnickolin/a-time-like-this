@@ -10,6 +10,7 @@
     {{!-- Preload main styles and scripts for better performance --}}
     <link rel="preload" as="style" href="{{asset "built/screen.css"}}">
     <link rel="preload" as="script" href="{{asset "built/source.js"}}">
+    <link rel="stylesheet" href="https://use.typekit.net/nse5ygr.css">
     
     {{!-- Fonts are preloaded and defined in the default template to avoid layout shift --}}
     {{> "typography/fonts"}}
@@ -17,10 +18,16 @@
     {{!-- Theme assets - use the {{asset}} helper to reference styles & scripts, this will take care of caching and cache-busting automatically --}}
     <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}">
 
-    {{!-- Custom background color --}}
+    {{!-- Custom background color and fonts --}}
     <style>
         :root {
             --background-color: {{@custom.site_background_color}}
+            --gh-font-heading: pf-marlet-display, sans-serif;
+            --gh-font-body: adobe-caslon-pro;
+            --font-sans: pf-marlet-display, Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+            --font-serif: adobe-caslon-pro, "EB Garamond", Georgia, Times, serif;
+            --gh-font-wayfinding: graphie;
+            --gh-font-byline: futura-pt, sans-serif;
         }
     </style>
 
