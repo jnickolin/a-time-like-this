@@ -1,1 +1,5 @@
 content/themes/journal-upgrade
+node_modules/
+content/data/
+content/logs/
+.env
