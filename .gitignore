@@ -4,3 +4,5 @@ content/data/
 content/logs/
 .env
 config*.json
+.ghost-cli
+.ghostpid
